@@ -1,5 +1,6 @@
 @import "rouge-github";
 @import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap');
 
 /* MeyerWeb Reset */
 
@@ -27,8 +28,8 @@ time, mark, audio, video {
 /* Base text styles */
 
 body {
-  padding:10px 50px 0 0;
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding:10px 50px 0 0;
+	font-family: 'Zilla Slab', serif;
 	font-size: 14px;
 	color: #232323;
 	background-color: #FBFAF7;
@@ -48,8 +49,7 @@ p, ul, ol, table, dl {
 }
 
 h1, h2, h3 {
-	font-family: Arvo, Monaco, serif;
-  line-height:1.3;
+	line-height:1.3;
 	font-weight: normal;
 }
 
@@ -72,18 +72,7 @@ h3 {
 }
 
 h4, h5, h6 {
-	font-family: Arvo, Monaco, serif;
 	font-weight: 700;
-}
-
-a {
-  color:#C30000;
-  font-weight:200;
-  text-decoration:none;
-}
-
-a:hover {
-	text-decoration: underline;
 }
 
 a small {
@@ -193,12 +182,11 @@ table {
  }
 
 th {
-  font-family: 'Arvo', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
-  padding: 10px;
-  background: #232323;
-  color: #FDFEFB;
+	padding: 10px;
+	background: #232323;
+	color: #FDFEFB;
  }
 
 td {
@@ -218,9 +206,9 @@ td {
 header {
 	background-color: #171717;
 	color: #FDFDFB;
-  width:170px;
-  float:left;
-  position:fixed;
+	width:170px;
+	float:left;
+	position:fixed;
 	border: 1px solid #000;
 	-webkit-border-top-right-radius: 4px;
 	-webkit-border-bottom-right-radius: 4px;
@@ -238,7 +226,6 @@ p.header {
 }
 
 h1.header {
-	font-family: Arvo, sans-serif;
 	font-size: 30px;
 	font-weight: 300;
 	line-height: 1.3em;
@@ -246,76 +233,41 @@ h1.header {
 	margin-top: 0;
 }
 
-
-h1.header, a.header, a.name, header a{
+h1.header, a.header, a.name {
 	color: #fff;
 }
 
-a.header {
-	text-decoration: underline;
-}
-
-a.name {
-	white-space: nowrap;
-}
+/* Section - for menue content */
 
 header ul {
   list-style:none;
   padding:0;
 }
 
-header li {
-	list-style-type: none;
-  width:132px;
-  height:15px;
-	margin-bottom: 12px;
-	line-height: 1em;
-	padding: 6px 6px 6px 7px;
-
-	background: #AF0011;
-	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: linear-gradient(to top, #AF0011 0%,#820011 100%);
-
-	border-radius:4px;
-  border:1px solid #0D0D0D;
-
-	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-
-}
-
-header li:hover {
-	background: #C3001D;
-	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: linear-gradient(to top, #C3001D 0%,#950119 100%);
-}
-
-a.buttons {
-	-webkit-font-smoothing: antialiased;
-	background: url(../images/arrow-down.png) no-repeat;
-	font-weight: normal;
-	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
-	padding: 2px 2px 2px 22px;
-	height: 30px;
-}
-
-a.github {
-	background: url(../images/octocat-small.png) no-repeat 1px;
-}
-
-a.buttons:hover {
-	color: #fff;
+a {
+	font-weight: 900;
 	text-decoration: none;
+	box-shadow: inset 0 0 0 0 #63B5C5;
+	color: #63B5C5;
+	margin: 0 -.25rem;
+	padding: 0 .25rem;
+	transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
+a:hover {
+  box-shadow: inset 100px 0 0 0 #63B5C5;
+  color: white;
+}
+
+header span, header a {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.copyrightfont {
+		color: #8c8c8c;
+		font-size: 0.5em;
+}
 
 /* Section - for main page content */
 

@@ -16,26 +16,18 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+        <img alt="Developer Bastian" width="130px" src="/assets/images/dev.bastian.small.png" />
+		<h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-
-        <ul>
-          {% if site.show_downloads %}
-            <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
-            <li class="download"><a class="buttons" href="{{ site.github.tar_url }}">Download TAR</a></li>
-          {% endif %}
-          <li><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></li>
-        </ul>
-
-        {% if site.github.is_project_page %}
-          <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-          <ul>
-            <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
-          </ul>
-        {% endif %}
+		<span>Tutorials</span>
+		<ul>
+			{% if site.show_install %}<li><a href="install.html">Installation</a></li>{% endif %}
+		</ul>
+		<span>Links</span>
+		<ul>
+			{% if site.show_home %}<li><a href="index.html">Home</a></li>{% endif %}
+			{% if site.show_aboutme %}<li><a href="aboutme.html">About</a></li>{% endif %}
+		</ul>
       </header>
 
       <section>
@@ -43,7 +35,19 @@
       </section>
 
       <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+        <div class="container">
+			<p class="center">
+				<a href="https://www.youtube.com/@bastiandev/featured"><img alt="Bastian Dev on Youtube" width="80px" src="/assets/images/youtube.png" /></a>
+				<br />&nbsp;<br />
+				<a href="https://github.com/DeveloperBastian"><img alt="Bastian Dev on Github" width="80px" src="/assets/images/GitHub_Logo.png" /></a>
+				<br />&nbsp;<br />
+				<a href="https://dev.epicgames.com/community/profile/KQB6B/BastianDev"><img alt="Bastian Dev on Unreal Forum" width="80px" src="/assets/images/UE_Logo.png" /></a>
+				<br />&nbsp;<br />
+				<a href="https://twitter.com/BastianDevelop"><img alt="Bastian Dev on Twitter" width="60px" src="/assets/images/twitter.svg" /></a>
+				<br />&nbsp;<br />
+				<span class="copyrightfont">BastianDev &copy; <script>document.write(new Date().getFullYear())</script></span>
+			</p>
+		</div>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
