@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/www/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -16,17 +16,17 @@
   <body>
     <div class="wrapper">
       <header>
-        <img alt="Developer Bastian" width="130px" src="/assets/images/dev.bastian.small.png" />
+        <img alt="Developer Bastian" width="130px" src="/www/assets/images/dev.bastian.small.png" />
 		<h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 		<span>Tutorials</span>
 		<ul>
-			{% if site.show_install %}<li><a href="install.html">Installation</a></li>{% endif %}
+			{% if site.show_install %}<li><a href="/www/install.html">Installation</a></li>{% endif %}
 		</ul>
 		<span>Links</span>
 		<ul>
-			{% if site.show_home %}<li><a href="index.html">Home</a></li>{% endif %}
-			{% if site.show_aboutme %}<li><a href="aboutme.html">About</a></li>{% endif %}
+			{% if site.show_home %}<li><a href="/www/index.html">Home</a></li>{% endif %}
+			{% if site.show_aboutme %}<li><a href="/www/aboutme.html">About</a></li>{% endif %}
 		</ul>
       </header>
 
@@ -37,13 +37,13 @@
       <footer>
         <div class="container">
 			<p class="center">
-				<a href="https://www.youtube.com/@bastiandev/featured"><img alt="Bastian Dev on Youtube" width="80px" src="/assets/images/youtube.png" /></a>
+				<a href="https://www.youtube.com/@bastiandev/featured"><img alt="Bastian Dev on Youtube" width="80px" src="/www/assets/images/youtube.png" /></a>
 				<br />&nbsp;<br />
-				<a href="https://github.com/DeveloperBastian"><img alt="Bastian Dev on Github" width="80px" src="/assets/images/GitHub_Logo.png" /></a>
+				<a href="https://github.com/DeveloperBastian"><img alt="Bastian Dev on Github" width="80px" src="/www/assets/images/GitHub_Logo.png" /></a>
 				<br />&nbsp;<br />
-				<a href="https://dev.epicgames.com/community/profile/KQB6B/BastianDev"><img alt="Bastian Dev on Unreal Forum" width="80px" src="/assets/images/UE_Logo.png" /></a>
+				<a href="https://dev.epicgames.com/community/profile/KQB6B/BastianDev"><img alt="Bastian Dev on Unreal Forum" width="80px" src="/www/assets/images/UE_Logo.png" /></a>
 				<br />&nbsp;<br />
-				<a href="https://twitter.com/BastianDevelop"><img alt="Bastian Dev on Twitter" width="60px" src="/assets/images/twitter.svg" /></a>
+				<a href="https://twitter.com/BastianDevelop"><img alt="Bastian Dev on Twitter" width="60px" src="/www/assets/images/twitter.svg" /></a>
 				<br />&nbsp;<br />
 				<span class="copyrightfont">BastianDev &copy; <script>document.write(new Date().getFullYear())</script></span>
 			</p>
