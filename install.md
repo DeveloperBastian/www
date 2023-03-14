@@ -16,9 +16,11 @@ Installation of
 
 Ability to compile and start Lyra
 
-# Video Link
-- [Tutorial de] (https://www.youtube.com/watch?v=rdFjPHC-rlg)
-- [Tutorial en] (https://www.youtube.com/watch?v=frpAzIuGLDU)
+# Video - english - see link below for german
+{% include youtube.html id="frpAzIuGLDU" %}
+
+# Video Link german
+*	[Tutorial de](https://www.youtube.com/watch?v=rdFjPHC-rlg)
 
 # Thoughts
 
@@ -29,10 +31,11 @@ As promised, we will not use any C++ coding in our approach. Still, we need to h
 
 # Steps
 - Download & install Visual Studio Community
-  - [Download link de] (https://visualstudio.microsoft.com/de/vs/community/)
-  - [Download link en] (https://visualstudio.microsoft.com/en/vs/community/)
+  - [Download link de](https://visualstudio.microsoft.com/de/vs/community/)
+  - [Download link en](https://visualstudio.microsoft.com/en/vs/community/)
 - Install Unreal Engine & Lyra
 - Set up VS to be usable as debugger
  
 # Links
 *	Infographics 01
+
