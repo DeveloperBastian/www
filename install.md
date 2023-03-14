@@ -16,6 +16,10 @@ Installation of
 
 Ability to compile and start Lyra
 
+# Video Link
+- [Tutorial de] (https://www.youtube.com/watch?v=rdFjPHC-rlg)
+- [Tutorial en] (https://www.youtube.com/watch?v=frpAzIuGLDU)
+
 # Thoughts
 
 As promised, we will not use any C++ coding in our approach. Still, we need to have a working coding environment in place for several reasons
@@ -24,13 +28,11 @@ As promised, we will not use any C++ coding in our approach. Still, we need to h
 *	we **will** come to a point where defining a new functionality is easier in coding than Blueprints - but at that point we will have learned enough to know what we are doing (fingers crossed...)
 
 # Steps
-- Visual Studio Community
-  - Download link
-  - Jump into Video 
-- Unreal Engine 
-  - Jump into Video 
-- Unreal Lyra
-  - Jump into Video 
+- Download & install Visual Studio Community
+  - [Download link de] (https://visualstudio.microsoft.com/de/vs/community/)
+  - [Download link en] (https://visualstudio.microsoft.com/en/vs/community/)
+- Install Unreal Engine & Lyra
+- Set up VS to be usable as debugger
  
 # Links
 *	Infographics 01
