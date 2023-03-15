@@ -39,6 +39,4 @@ As promised, we will not use any C++ coding in our approach. Still, we need to h
 - Install Unreal Engine & Lyra
 - Set up VS to be usable as debugger
  
-# Links
-*	Infographics 01
 
