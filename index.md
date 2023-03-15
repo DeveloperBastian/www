@@ -19,11 +19,12 @@ Expect more than a year dedication into learning this. Or follow my BP only appr
 I will document everything
 
 *   here on this website
-*	on a summary [Infographics](https://github.com/DeveloperBastian/Unreal-Lyra-Concepts/blob/main/infographics/Unreal%20Lyra.pdf)
+*	on a summary [Infographics](https://github.com/DeveloperBastian/Unreal-Lyra-Concepts/blob/main/infographics/Unreal%20Lyra.pdf). I borrowed that concept from the [Epics Infographics] (https://github.com/drstreit/unreal_schematics) that I like a lot for a fast overview - but minde will more be a step-by-step approach to solve certain problems
 *	on the [Youtube channel] (https://www.youtube.com/@bastiandev/videos)
 *	on my [Discord channel] (https://discord.gg/ZTHqvZNEqB)
 *	on the [Unreal forum] (https://forums.unrealengine.com/u/bastiandev)
 *	on [Twitter] (https://twitter.com/BastianDevelop)
+*	all Blueprints created will be documented at [blueprintUE] (https://blueprintue.com/profile/devbastian/) for easy copy/paste
 
 ## Why using Unreal Lyra?
 The most advanced concept in terms of segregation of  layers seems to be is Unreal Lyra - also see [X157](https://x157.github.io/UE5/LyraStarterGame/Pros-and-Cons) for a technial discussionto use it or not
