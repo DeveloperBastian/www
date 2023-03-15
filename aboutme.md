@@ -3,7 +3,7 @@ layout: default
 ---
 ### Developer Bastian
 
-![Developer Bastian](/assets/images/bastian.developer.png)
+![Developer Bastian](/www/assets/images/bastian.developer.png)
 
 # About Me 
 
@@ -24,4 +24,14 @@ Add to that my poor understanding of C++, so expect from my learnings
 I would be helpless without the work of much more knowledgable content creators:
 *	[X157](https://x157.github.io/): No way around this site if you want to dive deeper into Lyra concepts. I actually try to take his concepts and make them non-programmer friendly, but this is the site that you will need when you want to dive deeper...
 *	[Nance](https://www.youtube.com/@nancedevdiaries): A journey a bit similar to mine here, but starting on an obviously higher level - Nance is doing great Lyra videos and I will try to integrate a lot of her teachings
+*	[Epic Schematics](https://bit.ly/unreal-schematics): This is where I got the ideo for my own [infographic](https://bit.ly/bastian_info) about Unreal Lyra processes
 
+# Where to find me
+
+*	[This website](https://bit.ly/bastian-web)
+*	main [Infographic](https://bit.ly/bastian_info)
+*	[Youtube channel](https://www.youtube.com/@bastiandev/videos)
+*	[Discord channel](http://bit.ly/3JHdAW6)
+*	[Unreal Forum](http://bit.ly/3mRXhwG)
+*	[Twitter channel](https://bit.ly/bastiantweet)
+*	BluePrints are documented on [blueprintUE](https://bit.ly/Bastian-PasteBin) to make copy/paste easier
