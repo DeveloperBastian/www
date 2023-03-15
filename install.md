@@ -22,6 +22,9 @@ Ability to compile and start Lyra
 # Video Link german
 *	[Tutorial de](https://www.youtube.com/watch?v=rdFjPHC-rlg)
 
+# Infographics
+[Infographics](https://github.com/DeveloperBastian/Unreal-Lyra-Concepts/blob/main/infographics/Unreal%20Lyra.pdf)
+
 # Thoughts
 
 As promised, we will not use any C++ coding in our approach. Still, we need to have a working coding environment in place for several reasons
