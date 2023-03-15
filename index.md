@@ -13,7 +13,8 @@ I started my Unreal journey mid 2022 and quickly got confused and overwhelmed ab
 After 6 months, I decided to document my way to a simple survival multiplayer game, fully based on Unreal Lyra - as recommended as a basis for new games.
 
 This will be a **Blueprint-only** approach, no C++ required. Having said that, I **will** show how to set up a programming environment in the background - simply because Lyra actually relies on that and it will be anyway a logical next step on my - and possibly yours - gameplay development path.
-Expect more than a year dedication into learning this. Or follow my BP only approach here and let's find out together how far that can get us...
+
+Expect more than a year dedication into learning this. 
 
 ## Documentation
 I will document everything
