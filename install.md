@@ -38,5 +38,8 @@ As promised, we will not use any C++ coding in our approach. Still, we need to h
   - [Download link en](https://visualstudio.microsoft.com/en/vs/community/)
 - Install Unreal Engine & Lyra
 - Set up VS to be usable as debugger
- 
+  - Search the plugin "[Visual Studio Integration Tool](https://www.unrealengine.com/marketplace/en-US/product/visual-studio-integration-tool)" from the marketplace. Install into your engine and enable this plugin in your project
+  - Go to your engine installation folder. Go to "/engine/extras/UnrealVS/". Select your VS version and install the Visual Studio extension from there
+- Generate Visual Studion solution file from the Unreal project: "Menu/Tools/Create (later: Refresh) Visual Studio Project"
+- Open your project in VS, right click on "LyraStarterGame" in your project explorer. First choose "Clean", afterwards choose "Build"
 
