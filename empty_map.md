@@ -3,7 +3,7 @@ layout: default
 ---
 ### Developer Bastian
 
-![Developer Bastian](/assets/images/lyra.png)
+![Developer Bastian](/assets/images/empty_map.png)
 
 # Targets of this tutorial
 *	Creating a new [Gamefeature plugin](https://docs.unrealengine.com/5.1/en-US/game-features-and-modular-gameplay-in-unreal-engine/)
