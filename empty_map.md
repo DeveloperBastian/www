@@ -30,7 +30,7 @@ This is quite straightforward:
 *	Make sure to never modify anything in the Lyra /Content folder
 *	Make sure to control all dropdown menues after pasting in code from [BlueprintUE](https://blueprintue.com/profile/devbastian/) - they tend to reset to default 
 
-# Steps
+# Steps (referring to infographic letters)
 *	A: 		Create Plugin
 *	B: 		Prepare and create map
 *	C-E: 	Create your hero

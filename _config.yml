@@ -4,5 +4,6 @@ show_install: true
 show_home: true
 show_aboutme: true
 show_emptymap: true
+show_appearance: true
 google_analytics:
 theme: jekyll-theme-dinky
