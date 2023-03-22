@@ -3,7 +3,7 @@ layout: default
 ---
 ### Developer Bastian
 
-![Developer Bastian](/assets/images/empty_map.png)
+![Developer Bastian](/assets/images/english.png)
 
 # Appearances: Targets of this tutorial
 *	Reskin our Lyra character from Manny to Quinn
