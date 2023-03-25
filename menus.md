@@ -3,7 +3,7 @@ layout: default
 ---
 ### Developer Bastian
 
-![Developer Bastian](/assets/images/menu_en.png
+![Developer Bastian](/assets/images/menus_en.png
 )
 
 # Lyra Menus: Targets of this tutorial
