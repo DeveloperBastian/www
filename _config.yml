@@ -5,5 +5,6 @@ show_home: true
 show_aboutme: true
 show_emptymap: true
 show_appearance: true
+show_menu: true
 google_analytics:
 theme: jekyll-theme-dinky
