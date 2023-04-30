@@ -3,7 +3,7 @@ layout: default
 ---
 ### Developer Bastian
 
-![Developer Bastian](/assets/images/abilities_en.png)
+<img src="{{site.url}}/assets/images/abilities_en.png" style="display: block; margin: auto;" class="medium-zoom-image" />
 
 ### [Lyra Gameplay Abilities 01 - Create and KeyBind](#lyra-gameplay-abilities-and-enhanced-input)
 ### [Lyra Gameplay Abilities 02 - Listen and detect gameplay tag changes in other actors](#lyra-gameplay-abilities-subscripe-to-tag-changes)
