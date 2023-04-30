@@ -54,4 +54,4 @@ Diving deeper into gameplay abilities and how to use them to communicate between
 ![Lyra Gameplay Tag - Debugging function BluePrint](/assets/images/abilities02_dump_tags.png)
 
 ####	How to listen and react to Lyra gameplay tag changes in other actors. This is automatically multi-threaded, easily replicated and extremely low on resources - recommended as standard pattern to organize your in game communication
-![Subscribe to changes in gamepay tags of other actors](/assets/images/abilities02_sunscripe_to_gameplay_tag_changes.png.png)
+![Subscribe to changes in gamepay tags of other actors](/assets/images/abilities02_sunscripe_to_gameplay_tag_changes.png)
