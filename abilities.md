@@ -68,7 +68,7 @@ Diving deeper into gameplay abilities and how to use them to communicate between
 A more complete template for our Gameplay Ability System
 
 ### Video - english - see link below for german
-{% include youtube.html id="kwrV-eDWImI" %}
+{% include youtube.html id="Xy8ac79mwes" %}
 
 ### Video Link german
 *	[Tutorial de](https://youtu.be/9wQtZi9TMc4)
