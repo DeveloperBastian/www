@@ -5,8 +5,9 @@ layout: default
 
 <img src="{{site.url}}/www/assets/images/abilities_en.png" style="display: block; margin: auto;" class="medium-zoom-image" />
 
-### [Lyra Gameplay Abilities 01 - Create and KeyBind](#lyra-gameplay-abilities-and-enhanced-input)
-### [Lyra Gameplay Abilities 02 - Listen and detect gameplay tag changes in other actors](#lyra-gameplay-abilities-subscripe-to-tag-changes)
+### [Lyra Gameplay Abilities - Create and KeyBind](#lyra-gameplay-abilities-and-enhanced-input)
+### [Lyra Gameplay Abilities 01 - Listen and detect gameplay tag changes in other actors](#lyra-gameplay-abilities-subscripe-to-tag-changes)
+### [Lyra Gameplay Abilities 02 - Create an Gameplay Ability Template and understand its components](#lyra-gameplay-abilities-components-and-template)
 
 ## Infographics
 [Infographics](https://github.com/DeveloperBastian/Unreal-Lyra-Concepts/blob/main/infographics/Unreal%20Lyra.pdf)
@@ -55,3 +56,26 @@ Diving deeper into gameplay abilities and how to use them to communicate between
 
 ####	How to listen and react to Lyra gameplay tag changes in other actors. This is automatically multi-threaded, easily replicated and extremely low on resources - recommended as standard pattern to organize your in game communication
 ![Subscribe to changes in gamepay tags of other actors](/assets/images/abilities02_sunscripe_to_gameplay_tag_changes.png)
+
+***
+
+## Lyra Gameplay Abilities Components and Template
+*	Add Gameplay Cues, Gameplay Effects and Gameplay Costs to an Ability
+*	Create a better Blueprint Debug function
+*	Dance to death: Apply health costs for dancing
+
+### Outcome
+A more complete template for our Gameplay Ability System
+
+### Video - english - see link below for german
+{% include youtube.html id="kwrV-eDWImI" %}
+
+### Video Link german
+*	[Tutorial de](https://youtu.be/9wQtZi9TMc4)
+
+### Key Concepts
+####	Gameplay Cues are connected via Gameplay Tags to Gameplay Abilities
+####	Gameplay Cues Notifier point to Sound Waves, Niagara effects, Force Feedback effects or Camera Shakes
+####	Gameplay Effects add costs to abilities - we use the Lyra health system to apply health costs while dancing
+####	How to listen and react to Lyra gameplay tag changes in other actors. This is automatically multi-threaded, easily replicated and extremely low on resources - recommended as standard pattern to organize your in game communication
+
