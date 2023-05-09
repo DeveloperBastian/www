@@ -8,6 +8,7 @@ layout: default
 ### [Lyra Gameplay Abilities - Create and KeyBind](#lyra-gameplay-abilities-and-enhanced-input)
 ### [Lyra Gameplay Abilities 01 - Listen and detect gameplay tag changes in other actors](#lyra-gameplay-abilities-subscripe-to-tag-changes)
 ### [Lyra Gameplay Abilities 02 - Create an Gameplay Ability Template and understand its components](#lyra-gameplay-abilities-components-and-template)
+### [Lyra Gameplay Abilities 03 - Get an Ability through interation with your environment](#lyra-gameplay-abilities-through-the-environment)
 
 ## Infographics
 [Infographics](https://github.com/DeveloperBastian/Unreal-Lyra-Concepts/blob/main/infographics/Unreal%20Lyra.pdf)
@@ -78,4 +79,27 @@ A more complete template for our Gameplay Ability System
 ####	Gameplay Cues Notifier point to Sound Waves, Niagara effects, Force Feedback effects or Camera Shakes
 ####	Gameplay Effects add costs to abilities - we use the Lyra health system to apply health costs while dancing
 ####	How to listen and react to Lyra gameplay tag changes in other actors. This is automatically multi-threaded, easily replicated and extremely low on resources - recommended as standard pattern to organize your in game communication
+
+***
+
+## Lyra Gameplay Abilities through the Environment
+*	Bind in Lyra ShooterCore throughthe Visual Studio plugin file
+*	Grant your character the GA_Interact from ShooterExplorer
+*	Build a BP Actor derived from Lyra World Collectable
+*	Use a BP Interface to launch an external URL while interacting
+
+### Outcome
+Understanding the usage of the GA_Interact and how to understand Gameplay Ability interactions as properties of the environment, not the character
+
+### Video - english - see link below for german
+{% include youtube.html id="vPkahUXpTK8" %}
+
+### Video Link german
+*	[Tutorial de](https://youtu.be/RoAFZHc9lzI)
+
+### Key Concepts
+####	GA_Interact scans for Lyra World Collectible
+####	When found, an Gameplay Ability is granted to scanning actor and can be executed on keypress
+####	Use BP Interfaces whenever possible to avoid the resource costs of storing full BPs in memory on the server
+
 
