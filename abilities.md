@@ -98,8 +98,8 @@ Understanding the usage of the GA_Interact and how to understand Gameplay Abilit
 *	[Tutorial de](https://youtu.be/RoAFZHc9lzI)
 
 ### Key Concepts
-####	GA_Interact scans for Lyra World Collectible
-####	When found, an Gameplay Ability is granted to scanning actor and can be executed on keypress
-####	Use BP Interfaces whenever possible to avoid the resource costs of storing full BPs in memory on the server
+*	GA_Interact scans for Lyra World Collectible
+*	When found, an Gameplay Ability is granted to scanning actor and can be executed on keypress
+*	Use BP Interfaces whenever possible to avoid the resource costs of storing full BPs in memory on the server
 
 
