@@ -9,6 +9,7 @@ layout: default
 ### [Lyra Gameplay Abilities 01 - Listen and detect gameplay tag changes in other actors](#lyra-gameplay-abilities-subscripe-to-tag-changes)
 ### [Lyra Gameplay Abilities 02 - Create an Gameplay Ability Template and understand its components](#lyra-gameplay-abilities-components-and-template)
 ### [Lyra Gameplay Abilities 03 - Get an Ability through interation with your environment](#lyra-gameplay-abilities-through-the-environment)
+### [Lyra Gameplay Abilities 04 - Understanding Cues, Effects and Cooldowns](#effects-cues-and-cooldowns)
 
 ## Infographics
 [Infographics](https://github.com/DeveloperBastian/Unreal-Lyra-Concepts/blob/main/infographics/Unreal%20Lyra.pdf)
@@ -102,4 +103,30 @@ Understanding the usage of the GA_Interact and how to understand Gameplay Abilit
 *	When found, an Gameplay Ability is granted to scanning actor and can be executed on keypress
 *	Use BP Interfaces whenever possible to avoid the resource costs of storing full BPs in memory on the server
 
+***
 
+## Effects, Cues and Cooldowns
+*	Build a teleporter that has a cooldown
+*	Steer the cooldown widgets through game messages
+*	Build a Gameplay Ability for teleporting
+*	Think about client or server based actions
+
+### Outcome
+An understanding how to use game messsages to steer widget behaviour and how to use gameplay tags to trigger effects and cues
+
+### Video - english - see link below for german
+{% include youtube.html id="8nVXALXJ24o" %}
+
+### Video Link german
+*	[Tutorial de](https://youtu.be/ysFsjkEPnFE)
+
+### Key Concepts
+*	Unreal game messaging system - publisher and subscriber patterns explored
+*	Understanding the role of  Gameplay tags to trigger events 
+*	Sending gameplay events to actors
+
+
+
+
+
+https://youtu.be/8nVXALXJ24o
