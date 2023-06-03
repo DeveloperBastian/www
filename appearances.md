@@ -45,7 +45,7 @@ This is quite straightforward:
 *	Always check the license of the work you use and attribute accordingly
 *	Use [Realusion AccuRig](https://www.reallusion.com/auto-rig/accurig/) to rig your humanoids character
 *	Import into Unreal and create a ABP and Tagged Actor
-*	Create a BP Actor togrant a reskin ability
+*	Create a BP Actor to grant a reskin ability
 *	Create a reskin ability that changes Character Parts in game
 
 ## Video - english - see link below for german

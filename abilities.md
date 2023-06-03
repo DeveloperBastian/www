@@ -10,6 +10,7 @@ layout: default
 ### [Lyra Gameplay Abilities 02 - Create an Gameplay Ability Template and understand its components](#lyra-gameplay-abilities-components-and-template)
 ### [Lyra Gameplay Abilities 03 - Get an Ability through interation with your environment](#lyra-gameplay-abilities-through-the-environment)
 ### [Lyra Gameplay Abilities 04 - Understanding Cues, Effects and Cooldowns](#effects-cues-and-cooldowns)
+### [Lyra Gameplay Abilities 05 - Get Abilities Sets through Equipment - and dynamically add or remove Input Mapping Contexts](#abilities-through-equipment)
 
 ## Infographics
 [Infographics](https://github.com/DeveloperBastian/Unreal-Lyra-Concepts/blob/main/infographics/Unreal%20Lyra.pdf)
@@ -124,6 +125,28 @@ An understanding how to use game messsages to steer widget behaviour and how to 
 *	Unreal game messaging system - publisher and subscriber patterns explored
 *	Understanding the role of  Gameplay tags to trigger events 
 *	Sending gameplay events to actors
+
+***
+
+## Abilities through Equipment
+*	Add a Lyra Equipment Manager Component 
+*	Connect Lyra Equipment Definition with Ability Sets and Tagged Actors
+*	Implement an interface for BPs in your level to grant new Gameplay Abilities
+*	Implement a chain of reactions to set abilities granted (server) and input mapping conects received (client)
+
+### Outcome
+Equipment and its ability to add gameplay abilities are extrfemely powerful - even a bullet can be an "equipment" that grant nice abilites with gameplay effects and cues
+
+### Video - english - see link below for german
+{% include youtube.html id="W2LNrvK4Yis" %}
+
+### Video Link german
+*	[Tutorial de](https://youtu.be/5py2x9czoAw)
+
+### Key Concepts
+*	LyraEquipmentManagerComponent
+*	LyraGame.LyraEquipmentDefinition
+*	How to map/remap Input Mapping Context to keep all Input Mappings fully dynamic
 
 
 
